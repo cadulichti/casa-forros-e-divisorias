@@ -4307,7 +4307,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: right;
   padding: 9px 10px;
   margin-top: 8px;
-  margin-right: 70px;
+  margin-right: 30px;
   margin-bottom: 8px;
   background-color: transparent;
   background-image: none;
@@ -7311,7 +7311,7 @@ btn-teste {
 .mogno h3{
   position: relative;
   top: -150px;
-  left: 150px;
+  left: 210px;
   color: #222;
 }
 .mogno h3:after,.mogno h3:before{
@@ -7321,12 +7321,12 @@ btn-teste {
   width: 90px;
   height: 3px;
   margin: 0 auto;
-  margin-left: 70px;
+  margin-left: 10px;
 }
 .eucatex h3{
   position: relative;
   top: -150px;
-  left: 150px;
+  left: 190px;
   color: #222;
 }
 .eucatex h3:after,.eucatex h3:before{
@@ -7336,12 +7336,12 @@ btn-teste {
   width: 90px;
   height: 3px;
   margin: 0 auto;
-  margin-left: 70px;
+  margin-left: 10px;
 }
 .cerejeira h3{
   position: relative;
   top: -150px;
-  left: 150px;
+  left: 190px;
   color: #222;
 }
 .cerejeira h3:after,.cerejeira h3:before{
@@ -7351,7 +7351,7 @@ btn-teste {
   width: 90px;
   height: 3px;
   margin: 0 auto;
-  margin-left: 70px;
+  margin-left: 10px;
 }
 .cores h3{
   position: relative;
@@ -7982,6 +7982,107 @@ html{
 }
 .copy {
   text-align: center;
+}
+.navbar-header a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.navbar-brand {
+  float: left;
+  height: 20px;
+  padding: 13px 13px;
+  font-size: 18px;
+  line-height: 20px;
+}
+.navbar-brand img{
+  width: 60px;
+  height: 60px;
+  margin-top: -10px;
+}
+.navbar-service{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 180px;
+}
+
+.navbar-service-2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 95px;
+}
+.imagens{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: -40px;
+}
+.box-1,.box-2{
+  max-width: 700px;
+}
+.box-1 img,.box-2 img {
+  max-width: 100% !important;
+}
+.eucatex h3 {
+  margin-left: -30px;
+  margin-top: 35px;
+}
+.mogno h3{
+  margin-left: -10px;
+  margin-top: 35px;
+}
+.mogno h3:after,.mogno h3:before{
+  content: "";
+  background-color: #000;
+  width: 50px;
+  height: 3px;
+  display: block;
+  margin-left: 25px;
+}
+.mogno{
+  margin-top: -55px;
+}
+
+.cerejeira h3:after,.cerejeira h3:before{
+  content: "";
+  background-color: #000;
+  width: 50px;
+  height: 3px;
+  display: block;
+  margin-left: 45px;
+}
+.cerejeira{
+  margin-top: -58px;
+}
+.cerejeira h3{
+  margin-left: -40px;
+  margin-top: 35px;
+}
+
+.eucatex h3:after,.eucatex h3:before{
+  content: "";
+  background-color: #000;
+  width: 50px;
+  height: 3px;
+  display: block;
+  margin-left: 25px;
+}
+.cores{
+  margin-top: 55px;
+}
+.cores h3{
+  margin-left: -90px;
+  margin-top: 35px;
 }
 
 }
