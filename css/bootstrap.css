@@ -7061,7 +7061,7 @@ button.close {
 }
 .qualidade img{ /*ajuste imagem qualidade*/
   position: relative;
-  top:30px;
+  top:10px;
   left:-108px;
 }
 
@@ -8099,7 +8099,7 @@ html{
 }
 .whatsapp{
 	position:fixed;
-    bottom:20px;
+    bottom:10px;
     left:300px;
     z-index:999;
 }
