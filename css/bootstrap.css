@@ -6774,7 +6774,7 @@ button.close {
 .whatsapp{
 	position:fixed;
     bottom:10px;
-    left:10px;
+    left:1250px;
     z-index:999;
 }
 
