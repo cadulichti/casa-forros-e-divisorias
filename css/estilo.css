@@ -1,0 +1,289 @@
+.whatsapp{
+	position:fixed;
+    bottom:10px;
+    left:10px;
+    z-index:999;
+}
+
+.box-categorias h1{
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 40px;
+  color: #681442;
+  text-shadow: #333;
+  font-weight: bold;
+}
+.linha{
+   text-align: center;
+   color: #555;
+   font-weight: bold; 
+}
+.ajuste{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px;
+  }
+.box-divisorias{
+  margin: 20px;
+  
+}
+.box-forros{
+  margin: 20px;
+}
+.box-categorias h3 {
+  font-size: 2.7em;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  top: -180px;
+  font-family: 'quicksand',sans-serif;
+}
+.box-categorias button{
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: -335px;
+    margin-left: 152px;
+    display: inline-block;
+    background: none;
+}
+.box-categorias button:hover{
+  background-color: #cca43c; /* Green */
+  border: none;
+  color: white;
+}
+.box-categorias a {
+  background-color: none;
+}
+.about h2{
+ text-align: center;
+ color: #88225b;
+ text-shadow: #777;
+}
+.container.about{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -90px;
+  margin-bottom: 45px;
+  width: 65%;
+}
+.about p {
+  width: 80%;
+  text-align: center;
+  margin-left: 90px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+/*Quebra*/
+
+.quebra {
+	width: 100%;
+	height: 220px;
+	background: url("../imagens/bg-footer.jpg") no-repeat center;
+	background-size: cover;
+	text-align: center;
+  padding-top: 40px;
+  color: #fff;
+}
+.quebra p {
+  font-size: 16px;
+  width: 350px;
+  margin: 0 auto;
+}
+.quebra{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+/*Footer*/
+
+.footer {
+	width: 100%;
+	background: #88225b;
+	color: #fff;
+	padding: 20px 0;
+}
+
+.footer h3 {
+	font-size: 18px;
+	line-height: 25px;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;
+}
+
+.footer h3:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fff;
+	margin: 6px 0 12px 0;
+}
+
+.footer_historia {
+	padding-right: 40px;
+}
+
+.footer_contato ul li {
+	font-size: 14px;
+	line-height: 30px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+.footer_redes ul li {
+	display: inline-block;
+	margin-right:10px;
+}
+
+.footer_redes ul li a {
+	border: 3px solid #ffffff;
+	display: block;
+	padding: 10px;
+}
+
+.footer_redes ul li a:hover {
+	border-color: #fff;
+}
+
+.copy {
+	width: 100%;
+	background: #681442;
+  padding: 20px 0;
+  color: #fff;
+}
+/*Qualidade*/
+
+.qualidade {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 120px;
+}
+
+.qualidade:after {
+	content: "";
+	width: 634px;
+	height: 83px;
+	display: block;
+	background: url("../imagens/linhas.svg") no-repeat center;
+	position: absolute;
+	top: 209px;
+	right: 162px;
+	z-index: -1;
+}
+
+.qualidade img{ /*ajuste imagem qualidade*/
+  position: relative;
+  top: 130px;
+  left:-155px;
+}
+
+.qualidade_lista {
+  display: flex;
+	padding-top: 180px;
+	overflow: auto; /* clear-fix */
+}
+
+.qualidade_lista li {
+	text-align: center;
+	padding: 0 40px;
+}
+
+.qualidade_lista li h3{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+  margin-top: 20px;
+  color: #000;
+}
+
+.qualidade_lista li h3:after{
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 6px auto;
+}
+.btn-about{
+	border: 3px solid #cca43c;
+	padding: 10px 50px;
+	color: #cca43c;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+  letter-spacing: .1em;
+}
+.btn-about:hover {
+	color: #fff;
+  background-color: #cca43c;
+  border-color: #cca43c;
+  text-decoration: none;
+}
+.subtitulo {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.subtitulo:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 8px auto;
+}
+
+.subtitulo-interno {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.subtitulo-interno:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 8px 0;
+}
+.aks a {
+  text-decoration: none;
+}
+.qualidade h2{
+  margin-top: 40px;
+  margin-left: 120px;
+}
+btn-teste {
+	font-size: 90px;
+}
+/*final minhas configurações externas rodape 26.06.2020*/
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+	
+
+}
