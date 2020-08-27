@@ -7549,7 +7549,7 @@ btn-teste {
   
   .qualidade img{ /*ajuste imagem qualidade*/
     position: relative;
-    margin-bottom: -100px;
+    left:10px;
   }
   
   .qualidade_lista {
